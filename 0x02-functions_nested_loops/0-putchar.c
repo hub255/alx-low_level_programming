@@ -1,11 +1,17 @@
-#include <stdio.h>
+#include "holberton.h"
 /**
-*main-print putchar
-*Return: Always 0
+* main - Entry point
+*
+* Return: Always 0 (Success)
 */
 int main(void)
 {
-printf("_putchar");
-printf("\n");
-return 0;
+char *sh = "Holberton";
+while (*sh)
+{
+_putchar(*sh);
+sh++;
+}
+_putchar('\n');
+return (0);
 }
