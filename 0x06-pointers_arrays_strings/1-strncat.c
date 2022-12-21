@@ -16,7 +16,7 @@ l++;
 }
 while (j < n && src[j])
 {
-dest[l] = src[j];      
+dest[l] = src[j];
 l++;
 j++;
 }
