@@ -28,7 +28,7 @@ lim = b;
 while (c <= lim)
 {
 if (s1[c] == s2[c])
-{  
+{
 c++;
 continue;
 }
